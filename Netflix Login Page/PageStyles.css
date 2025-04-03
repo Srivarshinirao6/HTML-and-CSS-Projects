@@ -1,0 +1,195 @@
+@font-face {
+    font-family: 'BebasNeueRegular';
+    src: url(BebasNeueRegular.eot);
+    src: url(BebasNeueRegular.eot?#iefix) format('embedded-opentype'),
+         url(BebasNeueRegular.woff) format('woff'),
+         url(BebasNeueRegular.ttf) format('truetype'),
+         url(BebasNeueRegular.svg) format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    font-family: 'BebasNeueRegular', sans-serif;
+}
+body{
+    display: block;
+    background-color: rgb(114, 114, 47);
+    background-size: auto;
+    margin: 0px;
+}
+.header{
+    display: block;
+}
+.header .headerLogo{
+    padding-left: 10%;
+    padding-top: 5px;
+    width:200px;
+    height: 74px;
+}
+.wrapper{
+    position: relative;
+    background-image: url(NetflixloginBgImg.jpg);
+    background-color: rgb(60,60,60,0.8);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.wrapperBlur{
+    position: relative;
+    background-color: rgb(10,10,10,0.6);
+}
+.SignUpBox{
+    margin-left: 35%;
+    margin-right: 30%;
+    border-radius: 5px;
+    padding-bottom: 3%;
+    backdrop-filter: blur(2px);
+    background: rgba(0,0,0,0.8);
+    border-color: white; 
+}
+h2{
+    padding-left: 10%;
+    padding-top: 7%;
+    font-size: 38px;
+    color: white;
+}
+.usernameBox{
+    width: 70%;
+    height: 40px;
+    margin-left: 10%;
+    margin-bottom: 2%;
+    padding-left: 2%;
+    font-size: 15px;
+    border-radius: 5px;
+    background-color: rgb(15,15,15,0.8);
+    border-style: solid;
+    border-width: 2px;
+}
+.password{
+    width: 70%;
+    height: 40px;
+    margin-left: 10%;
+    margin-bottom: 2%;
+    padding-left: 2%;
+    font-size: 15px;
+    border-radius: 5px;
+    background-color: rgb(15,15,15,0.8);
+    border-style: solid;
+    border-width: 2px;
+}
+.signInBtn{
+    width: 73%;
+    height: 40px;
+    margin-left: 10%;
+    margin-bottom: 1%;
+    font-size: 16px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    border: transparent;
+    cursor: pointer;
+}
+.signInBtn:hover{
+    background-color: rgb(189, 6, 6);
+}
+.or{
+    margin-left: 43%;
+    margin-bottom: 2%;
+    font-size: 18px;
+    color: white;
+}
+.signInCodeBtn{
+    width: 73%;
+    height: 40px;
+    margin-left: 10%;
+    margin-bottom: 2%;
+    padding-left: 2%;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    border: transparent;
+    background-color: rgb(60,60,60,0.8);
+    color: white;
+    font-size: 15px;
+}
+.signInCodeBtn:hover{
+    background-color: rgb(158, 151, 151);
+}
+.ForgotPassword{
+    font-size: 17px;
+    color: white;
+    margin-left: 30%;
+    margin-bottom: 3%;
+    cursor: pointer;
+}
+.RemeberBox{
+    margin-left: 10%;
+    margin-top: 3%;
+    cursor: pointer;
+}
+.RemeberBoxText{
+    color: white;
+}
+.SignUpText{
+    margin-left: 10%;
+    margin-top: 3%;
+    color: rgb(202, 198, 198);
+}
+.SignUpText .SignUpTextLink{
+    color: white;
+    cursor: pointer;
+}
+.BotText{
+    margin-left: 10%;
+    margin-right: 10%;
+    color: rgb(148, 139, 139);
+    font-size: 14px;
+}
+.learnMore{
+    cursor: pointer;
+    margin-left: 10%;
+    font-size: 13px;
+}
+.footer{
+    background-color: rgb(22,22,22);
+    padding: 0px; 
+}
+.FooterText{
+    padding-top: 5%;
+    color: rgb(206, 197, 197);
+    padding-left: 12%;
+}
+.Info{
+    display: block;
+    padding-left: 12%;
+    height: auto;
+}
+.InfoText{
+    color: rgb(190, 201, 211);
+    font-size: 14px;
+    padding-right: 12%;
+    padding-top: 10%;
+    cursor: pointer;
+} 
+.InfoInput{
+    display: block;
+    padding-left: 12%;
+    padding-top:2%
+}
+.InfoTextAdditional{
+    color: rgb(190, 201, 211);
+    font-size: 14px;
+    padding-right: 4%;
+}
+.DropDown{
+    padding-left:12%;
+    padding-top:2%;
+    padding-bottom: 5%;
+}
+.Language{
+    width: 10%;
+    height: 30px;
+    background-color: rgb(22,22,22);
+    color: white;
+    font-size: 14px;
+    padding-left: 2%;
+}
