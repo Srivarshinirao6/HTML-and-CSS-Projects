@@ -63,6 +63,7 @@ h2{
     background-color: rgb(15,15,15,0.8);
     border-style: solid;
     border-width: 2px;
+    color: white;
 }
 .password{
     width: 70%;
@@ -75,6 +76,7 @@ h2{
     background-color: rgb(15,15,15,0.8);
     border-style: solid;
     border-width: 2px;
+    color: white;
 }
 .signInBtn{
     width: 73%;
